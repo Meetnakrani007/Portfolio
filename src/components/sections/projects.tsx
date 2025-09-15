@@ -10,14 +10,24 @@ import { Github, ExternalLink, ChevronDown } from "lucide-react";
 
 const projectsData = [
   {
-    title: "Simon Says Game",
+    title: "EduSupport Portal",
     description:
-      'A classic memory game "Simon Says" built with a modern, glowing UI. Test your memory by repeating the sequence of colors and aim for the highest score.',
-    image: "/s_game.jpg",
-    imageHint: "retro arcade",
-    stack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Meetnakrani007/Simon-Says-game-",
-    live: "https://simon-says-game-bymeetnakrani.onrender.com/",
+      "EduPortal is an interactive student-faculty platform that streamlines academic assistance. With ticket management, private messaging, and a helpful posts section, it ensures smooth communication and easy access to learning resources. 📝✨",
+    image: "/eduportal.png",
+    imageHint: "Education Portal",
+    stack: ["Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Meetnakrani007/EduPortal",
+    live: "https://eduportal-web.onrender.com",
+  },
+  {
+    title: "Wanderlust",
+    description:
+      "Wanderlust is a full-stack travel accommodation platform where users can explore, list, and book unique stays. It features secure authentication, dynamic listings, and a smooth booking experience across devices.",
+    image: "/wanderlust.png",
+    imageHint: "travel accommodation",
+    stack: ["Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Meetnakrani007/WanderLust-Project-Full-stack-",
+    live: "https://wanderlust-project-full-stack.onrender.com/listings",
   },
   {
     title: "Currency Converter",
@@ -30,14 +40,14 @@ const projectsData = [
     live: "https://currency-converter-bymeetnakrani.onrender.com/",
   },
   {
-    title: "Wanderlust",
+    title: "Simon Says Game",
     description:
-      "Wanderlust is a full-stack travel accommodation platform where users can explore, list, and book unique stays. It features secure authentication, dynamic listings, and a smooth booking experience across devices.",
-    image: "/wanderlust.png",
-    imageHint: "travel accommodation",
-    stack: ["Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Meetnakrani007/WanderLust-Project-Full-stack-",
-    live: "https://wanderlust-project-full-stack.onrender.com/listings",
+      'A classic memory game "Simon Says" built with a modern, glowing UI. Test your memory by repeating the sequence of colors and aim for the highest score.',
+    image: "/s_game.jpg",
+    imageHint: "retro arcade",
+    stack: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Meetnakrani007/Simon-Says-game-",
+    live: "https://simon-says-game-bymeetnakrani.onrender.com/",
   },
 ];
 
